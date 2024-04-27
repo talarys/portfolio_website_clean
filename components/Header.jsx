@@ -17,7 +17,9 @@ const Header = () => {
 	return (
 		<header
 			className={`${
-				header ? "py-4 shadow-lg dark:bg-accent" : "py-6 dark:bg-transparent"
+				header
+					? "py-4 shadow-lg dark:bg-accent bg-background"
+					: "py-6 dark:bg-transparent"
 			} sticky top-0 z-30 transition-all`}
 		>
 			<div className="container mx-auto">
