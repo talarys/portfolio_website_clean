@@ -9,6 +9,7 @@ const ThemeToggler = () => {
 	return (
 		<div>
 			<Button
+				variant="outline"
 				className="rounded-full p-5"
 				onClick={() => setTheme(theme === "dark" ? "light" : "dark")}
 			>
