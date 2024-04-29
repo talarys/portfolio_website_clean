@@ -15,7 +15,7 @@ import Socials from "./Socials"
 
 export const Hero = () => {
 	return (
-		<section className="py-12 lg:py-24 h-[84vh] lg:pt-28 bg-primary-foreground relative">
+		<section className="py-12 lg:py-24 lg:h-[60vh] h-[45vh] lg:pt-28 bg-primary-foreground relative">
 			<div className="container mx-auto">
 				<div className="flex gap-x-8">
 					{/* Text */}
@@ -76,7 +76,7 @@ export const Hero = () => {
 					</div>
 				</div>
 				{/* Icon */}
-				<div className="hidden md:flex absolute left-1/2 bottom-44 lg:bottom-1/2 animate-bounce">
+				<div className="hidden md:flex absolute left-1/2 animate-bounce">
 					<RiArrowDownSLine className="text-3xl text-primary" />
 				</div>
 			</div>
