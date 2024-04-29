@@ -1,13 +1,10 @@
 import Link from "next/link"
-import { ChevronLeft } from "lucide-react"
-import { ChevronRight } from "lucide-react"
-
+import { BsFillTerminalFill } from "react-icons/bs"
 const Logo = () => {
 	return (
-		<Link className="flex items-center" href="/">
-			<ChevronLeft height={20} />
+		<Link className="flex items-center gap-x-1 text-xl" href="/">
+			<BsFillTerminalFill />
 			talarys
-			<ChevronRight height={20} />
 		</Link>
 	)
 }
