@@ -67,7 +67,7 @@ export const Hero = () => {
 						/>
 						<Badge
 							containerStyles={"absolute top-[55%] -right-20"}
-							icon={<RiTodoFill />}
+							icon={<RiTeamFill />}
 							endCountNum={40}
 							endCountText={"+"}
 							badgeText={"Happy Clients"}
