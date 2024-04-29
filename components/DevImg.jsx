@@ -2,7 +2,7 @@ import Image from "next/image"
 
 const DevImg = () => {
 	return (
-		<div className="relative w-[509px] hidden lg:flex">
+		<div className="w-[509px]">
 			<svg width="" height="" className="absolute">
 				<def>
 					<clipPath id="shape">
@@ -43,7 +43,7 @@ const DevImg = () => {
 				height={500}
 				alt=""
 				style={{ clipPath: "url(#shape)" }}
-				className="min-w-[509px] p-5"
+				className="min-w-[509px] p-16 "
 			/>
 		</div>
 	)

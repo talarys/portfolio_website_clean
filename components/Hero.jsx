@@ -50,8 +50,30 @@ export const Hero = () => {
 							}
 						/>
 					</div>
-					{/* Image */}
-					<DevImg />
+					<div className="hidden lg:flex relative">
+						{/* Image */}
+						<Badge
+							containerStyles={"absolute top-[24%] -left-12 pr-6 "}
+							icon={<RiBriefcase4Fill />}
+							endCountNum={3}
+							badgeText={"Years Of Experience"}
+						/>
+						<Badge
+							containerStyles={"absolute top-[70%] -left-[1rem]"}
+							icon={<RiTodoFill />}
+							endCountNum={30}
+							endCountText={"+"}
+							badgeText={"Finished Projects"}
+						/>
+						<Badge
+							containerStyles={"absolute top-[55%] -right-20"}
+							icon={<RiTodoFill />}
+							endCountNum={40}
+							endCountText={"+"}
+							badgeText={"Happy Clients"}
+						/>
+						<DevImg />
+					</div>
 				</div>
 				{/* Icon */}
 				<div className="hidden md:flex absolute left-1/2 bottom-44 lg:bottom-1/2 animate-bounce">
