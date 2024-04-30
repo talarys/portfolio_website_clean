@@ -31,7 +31,7 @@ const DevImg = () => {
 				width={500}
 				height={500}
 				alt=""
-				className="min-w-[509px] p-16 devimg"
+				className="min-w-[509px] p-16 clip1"
 			/>
 		</div>
 	)
