@@ -11,7 +11,7 @@ import { servicesData } from "@/lib/constants"
 
 const Services = () => {
 	return (
-		<section className="h-[100vh] py-12 lg:py-20 xl:py-40">
+		<section className="py-12 lg:py-20 xl:py-40">
 			<div className="container mx-auto">
 				{/* Section Title */}
 				<div className="section-title flex gap-x-2 items-center mb-12 xl:mb-24 mx-auto">

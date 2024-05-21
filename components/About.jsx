@@ -10,7 +10,7 @@ import {
 } from "@/lib/constants"
 const About = () => {
 	return (
-		<section className="px-4 container h-[100vh] xl:py-40">
+		<section className="px-4 container xl:py-40 relative">
 			{/* Text */}
 			<div className="flex items-center gap-x-2 justify-center">
 				<Dot />
