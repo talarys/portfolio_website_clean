@@ -1,5 +1,3 @@
-import { LuGanttChartSquare, LuGem, LuBookLock } from "react-icons/lu"
-
 import {
 	Card,
 	CardContent,
@@ -9,31 +7,7 @@ import {
 } from "@/components/ui/card"
 import Dot from "./Dot"
 
-const servicesData = [
-	{
-		icon: <LuGanttChartSquare size={72} strokeWidth={0.8} />,
-		title: "Web Design",
-		summary:
-			"Elevate Your Online Presence with Our Expert Web Design Services.",
-		description:
-			" Create a stunning website that showcases your brand's unique personality. Our team of killed designers will work closely with you to bring your vision to life.",
-	},
-	{
-		icon: <LuBookLock size={72} strokeWidth={0.8} />,
-		title: "Web Development",
-		summary: "Transform Your Business with Custom Web Design Solutions.",
-		description:
-			"Take your online presence to the next level with our expert web design services. From responsive websites to e-commerce solutions, we've got you covered. ",
-	},
-	{
-		icon: <LuGem size={72} strokeWidth={0.8} />,
-		title: "App Development",
-		summary:
-			"Unlock the Full Potential of Your Online Brand with Our Professional Web Design Services.",
-		description:
-			"Get a website that truly reflects your brand's values and mission. Our team of talented designers will work tirelessly to create a custom solution that drives results.",
-	},
-]
+import { servicesData } from "@/lib/constants"
 
 const Services = () => {
 	return (
