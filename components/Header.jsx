@@ -19,7 +19,7 @@ const Header = () => {
 	return (
 		<header
 			className={`${
-				header ? "py-4 shadow-lg" : "py-6 "
+				header ? "py-4 shadow-lg" : "py-2 md:py-6"
 			} sticky top-0 z-30 transition-all ${
 				path === "/" ? "bg-primary-foreground" : "bg-background"
 			}`}

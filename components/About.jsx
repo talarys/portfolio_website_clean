@@ -10,7 +10,7 @@ import {
 } from "@/lib/constants"
 const About = () => {
 	return (
-		<section className="px-4 container">
+		<section className="px-4 container h-[100vh] xl:py-40">
 			{/* Text */}
 			<div className="flex items-center gap-x-2 justify-center">
 				<Dot />
@@ -23,14 +23,14 @@ const About = () => {
 					<DevImgAlt />
 				</div>
 
-				<div className="flex-1 mt-12">
+				<div className="flex-1 mt-4 lg:mt-12">
 					<Tabs defaultValue="personal">
 						<TabsList className="w-full grid md:grid-cols-3 md:max-w-[520px] md:border mx-auto ">
 							<TabsTrigger value={"personal"}>Personal info</TabsTrigger>
 							<TabsTrigger value={"qualifications"}>Qualifications</TabsTrigger>
 							<TabsTrigger value={"skills"}>Skills</TabsTrigger>
 						</TabsList>
-						<div className="text-lg mt-12 lg:mt-8 w-fit mx-auto text-center xl:text-left">
+						<div className="text-lg lg:mt-12 w-fit mx-auto text-center xl:text-left">
 							{/* Personal Tab */}
 							<TabsContent value="personal">
 								<div>
