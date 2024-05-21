@@ -77,6 +77,8 @@ module.exports = {
 			backgroundImage: {
 				work_project_bg_light: "url(/project-bg-light.webp)",
 				work_project_bg_dark: "url(/project-bg-dark.webp)",
+				contact_illustration_light: "url(/illustration-light.svg)",
+				contact_illustration_dark: "url(/illustration-dark.svg)",
 			},
 		},
 	},
