@@ -8,7 +8,7 @@ export default function Home() {
 			<div className="snap-center snap-always">
 				<Hero />
 			</div>
-			<div className="snap-center snap-always">
+			<div className="snap-center snap-always relative">
 				<About />
 			</div>
 			<div className="snap-center snap-always">
