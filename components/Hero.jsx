@@ -13,7 +13,7 @@ import DevImg from "./DevImg"
 import Badge from "./Badge"
 import Socials from "./Socials"
 
-export const Hero = () => {
+const Hero = () => {
 	return (
 		<section className="py-12 h-[100vh] bg-primary-foreground relative">
 			<div className="container mx-auto pt-12 md:pt-40 xl:pt-12">
@@ -94,3 +94,5 @@ export const Hero = () => {
 		</section>
 	)
 }
+
+export default Hero
