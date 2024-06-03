@@ -90,7 +90,7 @@ const About = () => {
 									)
 								})}
 								{/* Education */}
-								{/* <div className="flex gap-x-4 items-center text-xl text-primary mb-5">
+								<div className="flex gap-x-4 items-center text-xl text-primary mb-5">
 									<LuGraduationCap />
 									<h4 className="capitalize font-medium">Education</h4>
 								</div>
@@ -112,7 +112,7 @@ const About = () => {
 											</div>
 										</div>
 									)
-								})} */}
+								})}
 							</TabsContent>
 							{/* Skills Tab */}
 							<TabsContent value="skills">
